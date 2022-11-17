@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    h1{font-size:24pt;}
+    ul{font-size:16pt;}
+  </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Bootstrap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+   <!--Option 1: Bootstrap Bundle with Popper -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <header>
+    <nav style="color:black; font-style: italic;">
+        <a href="home.html">Home</a>
+        <a href="learning.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="/">CRUD EJSpage</a>         
+    </nav>
+</header>
+<h1>Contact Informaiton</h1>
+<ul>
+    <li>Please Call Focus College | Surrey Campus at <a href="tel:+12508615808">+1(250)861-5808</a></li>
+    <li>Email: <a href="mailto:keli@alumni.focuscollege.com">keli@alumni.focuscollege.com</a></li>
+    <li><a href="learning.html" target="_self" >What I am Learning in Dynamic Web Development course</a></li>
+</ul>
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-4 mt-5 bg-light rounded">
+      <h1 class="text-center font-weight-bold text-primary">Contact Us</h1>
+      <hr class="bg-light">
+      <h5 class="text-center text-success"></h5>
+      <form action="" method="post" id="form-box" class="p-2">
+        <div class="form-group input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text"><i class="fas fa-user"></i></span>
+          </div>
+          <input type="text" name="name" class="form-control" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+          </div>
+          <input type="email" name="email" class="form-control" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text"><i class="fas fa-at"></i></span>
+          </div>
+          <input type="text" name="subject" class="form-control" placeholder="Enter subject" required>
+        </div>
+        <div class="form-group input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text"><i class="fas fa-comment-alt"></i></span>
+          </div>
+          <textarea name="msg" id="msg" class="form-control" placeholder="Write your message" cols="30" rows="4" required></textarea>
+        </div>
+        <div class="form-group">
+          <input type="submit" name="submit" id="submit" class="btn btn-primary btn-block" value="Send">
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>

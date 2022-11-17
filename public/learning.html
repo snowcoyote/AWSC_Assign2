@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Learning HTML & CSS</title>
+    <!--
+        <meta http-equiv="refresh" content="10; url=http://www.google.com" />
+    
+    <base href="https://www.w3schools.com">
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <META http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+<body>
+    <!--Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="learning.html">About</a>
+            <a href="contact.html">Contact</a>            
+        </nav>
+    </header>
+
+    <hr />
+        <h1>What I am Learning in Dynamic Web Development course</h1>
+        <p id="html">This para explains what is HTML</p>
+        <p id="css">This para explains what is Cascading Style Sheet</p>
+        <ol type="1" start="1">
+            <li>HTML - HyperText Markup Language</li>
+             <ul>
+              <li>HTML – Text Formatting</li>
+              <li>HTML Table</li>
+             </ul>
+            <li>CSS - Cascading Style Sheets</li>
+             <ul>
+              <li>Align image with CSS</li>
+              <li></li>
+        </ol>
+
+    <hr />
+    <h1>This is heading 1</h1>
+    <h2>This is heading 2</h1>
+    <h3>This is heading 3</h3>
+    <h4 align="center" >This is heading 4 on the middle</h4>
+    <h5 align="left">This is heading 5 on the left end side and the following heading 6 is on the right end side</h5>
+    <h6 align="right">This is heading 6</h6>
+    
+    <hr />
+    <h2>Preserve Formatting</h1>
+    <pre>
+        Development of the browser-based web application uses 3 main technologies in the client-side
+        1.HTML –To develop the content
+        2.CSS –To format/decorate the content
+        3.JavaScript (JS) –To develop the application (processing) components    
+    </pre>
+
+    <hr />
+    <p>Nonbreaking Spaces, Here, if you would like to split this sentence across two lines, it's not possible.
+        You&nbsp;can&nbsp;not&nbsp;break&nbsp;this&nbsp;sentence.</p>
+    
+<hr />
+<table border="1" bordercolor="green" style="background-image:url(images/IMG_1822.JPG);">
+    <tr>
+        <td colspan="2">vertical-align: baseline|length|sub|super|top|text-top|middle|bottom|text-bottom|initial|inherit;</td>
+    </tr>
+    <tr>
+        <th>Value</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>baseline</td>
+        <td>The element is aligned with the baseline of the parent. This is default</td>
+    </tr>
+    <tr>
+        <td>length</td>
+        <td>Raises or lower an element by the specified length. Negative values are allowed.
+            <a href="https://www.w3schools.com/cssref/css_units.asp" target="_self" >Read about length units</a>
+        </td>
+    </tr>
+    <tr>
+        <td>%</td>
+        <td>Raises or lower an element by a percent of the "line-height" property. Negative values are allowed</td>
+    </tr>
+    <tr>
+        <td>sub</td>
+        <td>The element is aligned with the subscript baseline of the parent</td>
+    </tr>
+    <tr>
+        <td>super</td>
+        <td>The element is aligned with the superscript baseline of the parent</td>
+    </tr>
+    <tr>
+        <td>top</td>
+        <td>The element is aligned with the top of the tallest element on the line</td>
+    </tr>
+    <tr>
+        <td>text-top</td>
+        <td>The element is aligned with the top of the parent element's font</td>
+    </tr>
+    <tr>
+        <td>middle</td>
+        <td>The element is placed in the middle of the parent element</td>
+    </tr>
+    <tr>
+        <td>bottom</td>
+        <td>The element is aligned with the lowest element on the line</td>
+    </tr>
+    <tr>
+        <td>text-bottom</td>
+        <td>The element is aligned with the bottom of the parent element's font</td>
+    </tr>
+    <tr>
+        <td>initial</td>
+        <td>Sets this property to its default value.
+            <a href="https://www.w3schools.com/cssref/css_initial.asp" target="_self">Read about initial</a>
+        </td>
+    </tr>
+    <tr>
+        <td>inherit</td>
+        <td>Inherits this property from its parent element.
+            <a href="https://www.w3schools.com/cssref/css_inherit.asp" target="_self">Read about inherit</a>
+        </td>
+    </tr>
+    <tr>
+        <th rowspan="2">Related Pages</th>
+        <td>CSS tutorial: <a href="https://www.w3schools.com/css/css_text_align.asp" target="_self">
+            CSS Text Alignment</a>
+        </td>
+    </tr>
+    <tr>
+        <td>HTML DOM reference:<a href="https://www.w3schools.com/jsref/prop_style_verticalalign.asp" target="_self">
+            verticalAlign property</a>
+        </td>
+    </tr>
+</table>
+
+<hr />
+<h1>Align image with CSS</h1>
+
+<h2>vertical-align: bottom</h2>
+<p>This is some text. <img src="images/smiley.gif" alt="Smiley face" width="42" height="42" style="vertical-align:bottom"> This is some text. This is some text. This is some text.</p>
+
+<h2>vertical-align: middle</h2>
+<p>This is some text. <img src="images/smiley.gif" alt="Smiley face" width="42" height="42" style="vertical-align:middle"> This is some text. This is some text. This is some text.</p>
+
+<h2>vertical-align: top</h2>
+<p>This is some text. <img src="images/smiley.gif" alt="Smiley face" width="42" height="42" style="vertical-align:top"> This is some text. This is some text. This is some text.</p>
+
+<h2>float: right</h2>
+<p>This is some text. <img src="images/smiley.gif" alt="Smiley face" width="42" height="42" style="float:right">This is some text. This is some text. This is some text.</p>
+
+<h2>float: left</h2>
+<p>This is some text. <img src="images/smiley.gif" alt="Smiley face" width="42" height="42" style="float:left">This is some text. This is some text. This is some text.</p>
+
+<hr />
+<p>The following word uses a <tt>monospaced</tt> typeface.</p>
+<p>The follwing wrod uses a <sup>superscript</sup> typeface.</p>
+<p>The following word uses a <sub>subscript</sub> typeface.</p>
+<p>The following word uses a <big>big</big> typeface.</p>
+<p>The following word uses a <small>small</small> typeface.</p>
+
+<p>The following word uses a <u>underLined</u> typeface.</p>
+<p>The following word uses a <b>bold </b>typeface.</p>
+<p>The following word uses a <i>italicized</i> typeface.</p>
+<p>The following word uses a <strike>striked</strike> typeface.</p>
+<p style ="font-family: arial;color: blueviolet;">The color of text is blueviolet.</p>
+<p style="font-family: Arial; color: #FF0000;">The color of test is #FF0000</P>
+
+<hr />
+<h2>Whats the difference between the &lt;u&gt; tag and the &lt;ins&gt; tag?</h2>
+    <p>Please see: <u>This is an u tag</u> and <ins>This is an ins tag.</ins></p>
+    <a href="https://stackoverflow.com/questions/12148517/whats-the-difference-between-the-u-tag-and-the-ins-tag" target="_self">
+        Read about the difference</a>
+
+<h2>Whats the difference between the &lt;del&gt; tag and the &60;strike&62; tag?</h2>
+    <p>Please see: <del>This is a del tag</del>, <s>this is an s tag</s>, and <strike>this is a strike tag.</strike></p>
+    <p><pre>
+    The &lt;del&gt; tag in HTML stands for delete and is used to mark a portion of text which has been deleted from the document. 
+    The deleted text is rendered as strike-through text by the web browsers although this property can be changed using CSS 
+    text-decoration property. The &lt;del&gt; tag requires a starting and ending tag.<br />
+
+    The HTML &lt;strike&gt; tag gives text the appearance of a strikethrough which draws a horizontal line over the text. 
+    This tag is also commonly referred to as the &lt;strike&gt; element. The &lt;strike&gt; tag was used in HTML 4 to define strikethrough text. 
+    WARNING: The &lt;strike&gt; tag has been removed in HTML5. You can try using the &lt;del&gt; tag or the &lt;s&gt; tag instead.<br /></pre>
+    </p>
+
+    <hr />
+    <button onclick=showCountries()>show countries</button>
+    <div id="countryFeed"></div>
+    <script>
+        function showCountries(){
+        //initialized XHR
+        var request = new XMLHttpRequest()
+        //Set the parameters
+        request.open("GET","https://restcountries.com/v3.1/all",true)
+        //callback function
+        request.onload = function(){
+            if(request.status==200){
+                console.log("Success")
+
+                let countries = JSON.parse(this.response)
+                console.log(countries)
+
+                countries.forEach(country => {
+                    const countryDiv = document.createElement("div")
+                    countryDiv.innerHTML = country.name.official
+                    
+                    //feed the data to created div
+                    document.getElementById("countryFeed").append(countryDiv)
+                });
+            }
+        } 
+        //send the request
+        request.send()
+    }
+    </script>
+    <hr />
+    <a href="/">CRUD EJSpage</a>
+
+    <footer>
+        <p align="center">
+            <a href="" target="_top" >Go to Top</a>
+        </p>
+    </footer>
+</body>
+</html>
